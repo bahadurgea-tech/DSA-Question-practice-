@@ -11,7 +11,7 @@ continue;
             rt[i]=ch - 'a'+'A';
         }
     }
-//function for smolle leter (hw)
+//function for smolle leter 
 }void srts (char rt [],int n){
     for (int i =0;i<n;i++){
         char ch =rt[i];
