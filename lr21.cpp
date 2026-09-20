@@ -1,6 +1,7 @@
 //char converter 
 #include <iostream>
 using namespace std;
+//function for capital liter
 void srtc (char rt [],int n){
     for (int i =0;i<n;i++){
         char ch =rt[i];
@@ -10,7 +11,7 @@ continue;
             rt[i]=ch - 'a'+'A';
         }
     }
-//HW
+//function for smolle leter (hw)
 }void srts (char rt [],int n){
     for (int i =0;i<n;i++){
         char ch =rt[i];
