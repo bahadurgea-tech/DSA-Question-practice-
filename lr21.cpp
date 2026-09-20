@@ -1,3 +1,4 @@
+//char converter 
 #include <iostream>
 using namespace std;
 void srtc (char rt [],int n){
