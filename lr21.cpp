@@ -9,7 +9,7 @@ continue;
             rt[i]=ch - 'a'+'A';
         }
     }
-
+//HW
 }void srts (char rt [],int n){
     for (int i =0;i<n;i++){
         char ch =rt[i];
@@ -23,10 +23,13 @@ continue;
 }
 int main (){
     char word []= "ShuBhiI";
+    //smalle letter
     srts(word,strlen(word));
     cout<<word;
     cout<<endl;
+    //capitel letter
      srtc(word,strlen(word));
     cout<<word;
+    return 0;
 
 }
